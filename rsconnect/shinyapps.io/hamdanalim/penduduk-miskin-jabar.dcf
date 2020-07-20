@@ -1,0 +1,12 @@
+name: penduduk-miskin-jabar
+title: penduduk-miskin-jabar
+username:
+account: hamdanalim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2561537
+bundleId: 3381298
+url: https://hamdanalim.shinyapps.io/penduduk-miskin-jabar/
+when: 1594518126.24184
+asMultiple: FALSE
+asStatic: FALSE

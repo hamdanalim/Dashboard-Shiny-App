@@ -1,0 +1,11 @@
+"0","merge_penduduk %>% "
+"0","  filter(tahun == ""2015"") %>% "
+"0","  #select(nama_kota_kabupaten, tahun, penduduk_miskin, proyeksi_jumlah_penduduk) %>% "
+"0","  group_by(nama_kota_kabupaten, penduduk_miskin) %>% "
+"0","  summarise(proyeksi_jumlah_penduduk = proyeksi_jumlah_penduduk * 1000) %>% "
+"0","  ungroup() %>% "
+"0","  mutate(jumlah_penduduk_miskin = (proyeksi_jumlah_penduduk/100)*penduduk_miskin,"
+"0","         jumlah_penduduk_sejahtra = proyeksi_jumlah_penduduk - jumlah_penduduk_miskin,"
+"0","         penduduk_sejahtra = 100 - penduduk_miskin)"
+"2","`summarise()` regrouping output by 'nama_kota_kabupaten' (override with `.groups` argument)
+"

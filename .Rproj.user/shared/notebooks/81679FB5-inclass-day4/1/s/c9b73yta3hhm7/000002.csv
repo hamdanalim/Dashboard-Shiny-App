@@ -1,0 +1,2 @@
+"0","# find optimum k"
+"0","k <- sqrt(nrow(train_x))"

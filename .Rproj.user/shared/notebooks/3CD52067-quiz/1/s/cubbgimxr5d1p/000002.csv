@@ -1,0 +1,3 @@
+"0","# your code here"
+"0","lm.none <- lm(police_exp59~1, crime)"
+"0","lm.all <- lm(police_exp59 ~ ., crime)"

@@ -1,0 +1,3 @@
+"0","# membuat data prediktor"
+"0","train_x <- scale(train_new[, -31]) # -31 adalah kolom variable target"
+"0","test_x <- scale(test[, -1], center = attr(train_x, ""scaled:center""), scale = attr(train_x, ""scaled:scale""))"

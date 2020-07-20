@@ -1,0 +1,3 @@
+"0","# data label (target)"
+"0","train_y <- train_new$diagnosis"
+"0","test_y <-  test$diagnosis"

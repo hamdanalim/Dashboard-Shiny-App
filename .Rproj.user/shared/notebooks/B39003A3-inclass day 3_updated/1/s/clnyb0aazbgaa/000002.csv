@@ -1,0 +1,1 @@
+"0","pred_crime3 <- predict(model_crime3, newdata = data.frame(gdp = crime$gdp, m_per1000f = crime$m_per1000f, unemploy_m39 = crime$unemploy_m39))"

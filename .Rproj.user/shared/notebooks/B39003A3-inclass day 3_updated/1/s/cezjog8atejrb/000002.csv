@@ -1,0 +1,6 @@
+"0","model_crime <- lm(inequality~gdp+mean_education+m_per1000f+unemploy_m39, data = crime)"
+"0","predict(model_crime, newdata = data.frame(gdp = crime$gdp, "
+"0","                                          mean_education = crime$mean_education,"
+"0","                                          unemploy_m39  = crime$unemploy_m39))"
+"2","Error in eval(predvars, data, env) : object 'm_per1000f' not found
+"

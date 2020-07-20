@@ -1,0 +1,3 @@
+"0","pend_miskin <- read.csv(""data_input/penduduk_miskin_all.csv"")"
+"0","jumlah_penduduk <- read.csv(""data_input/jumlah_penduduk.csv"")"
+"0","pend_miskin"

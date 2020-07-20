@@ -1,0 +1,5 @@
+"0","# membuang kolom id"
+"0","wbcd <- wbcd %>% "
+"0","  select(-id)"
+"0","# assigning label for target"
+"0","wbcd$diagnosis <- factor(wbcd$diagnosis, levels = c(""B"", ""M""), labels = c(""Benign"", ""Malignant""))"

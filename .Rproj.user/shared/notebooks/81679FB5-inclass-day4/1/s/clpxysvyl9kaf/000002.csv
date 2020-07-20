@@ -1,0 +1,4 @@
+"0","# lihat hasil prediksi"
+"0","loan_test %>% "
+"0","  select(not_paid, pred.Label) %>% "
+"0","  head()"

@@ -1,0 +1,5 @@
+"0","copiers$pred <- predict(model_ps, newdata = data.frame(Sales = copiers$Sales))"
+"0","copiers %>% "
+"0","  select(Profit, pred)"
+"2","Error in select(., Profit, pred) : unused arguments (Profit, pred)
+"

@@ -1,0 +1,1 @@
+"0","aggregate(Value ~ SUBJECT, meat_consumption, sum)"

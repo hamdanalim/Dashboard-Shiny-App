@@ -1,0 +1,6 @@
+"0","loan <- loan %>% "
+"0","  mutate(not_paid = as.factor(not_paid),"
+"0","         verified = as.factor(verified),"
+"0","         grdCtoA = as.factor(grdCtoA)) %>% "
+"0","  select(-c(annual_inc, verification_status, grade))"
+"0",""

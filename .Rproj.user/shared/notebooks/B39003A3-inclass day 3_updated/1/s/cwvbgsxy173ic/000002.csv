@@ -1,0 +1,1 @@
+"0","model_crime3 <- lm(inequality~ gdp + m_per1000f + unemploy_m39, crime)"

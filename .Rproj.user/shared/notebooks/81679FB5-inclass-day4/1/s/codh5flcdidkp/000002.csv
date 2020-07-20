@@ -1,0 +1,2 @@
+"0","# downsample"
+"0","train_new <- downSample(x = train[, -1], y = train[, 1], yname = ""diagnosis"")"

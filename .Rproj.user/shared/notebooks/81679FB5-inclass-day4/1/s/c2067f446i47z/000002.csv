@@ -1,0 +1,1 @@
+"0","model_flight <- glm(formula = DepDel15~Month+DayofWeek, data = flight, family = ""binomial"")"

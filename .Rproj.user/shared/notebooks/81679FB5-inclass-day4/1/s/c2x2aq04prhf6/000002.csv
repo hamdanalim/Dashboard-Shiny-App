@@ -1,0 +1,4 @@
+"0","set.seed(100)"
+"0","idx <- sample(nrow(wbcd), nrow(wbcd)*0.7)"
+"0","train <- wbcd[idx,]"
+"0","test <- wbcd[-idx,]"

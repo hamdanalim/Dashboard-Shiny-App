@@ -1,0 +1,2 @@
+"0","loan <- read.csv(""data_input/loan2017Q4.csv"", stringsAsFactors = T)"
+"0","head(loan)"

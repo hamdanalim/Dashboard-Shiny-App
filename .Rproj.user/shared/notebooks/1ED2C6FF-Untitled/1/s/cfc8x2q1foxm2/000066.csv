@@ -1,0 +1,2 @@
+"0","meat_consumption <- read.csv(""data_input/meat_consumption2018.csv"")"
+"0","head(meat_consumption)"

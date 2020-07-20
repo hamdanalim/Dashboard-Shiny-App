@@ -1,0 +1,1 @@
+"0","barplot(meat_by_country$Value, names.arg = meat_by_country$LOCATION, ylab = ""Kg/Capita"", xlab = ""Meat Consumption"")"

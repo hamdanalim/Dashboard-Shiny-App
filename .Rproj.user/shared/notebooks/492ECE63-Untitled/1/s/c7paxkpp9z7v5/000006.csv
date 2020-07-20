@@ -1,0 +1,7 @@
+"0","pend_clean <- pend_miskin %>% "
+"0","  filter(tahun != ""2017"") %>% "
+"0","  mutate_if(is.character, as.factor)"
+"0",""
+"0","jml_pend_clean <- jumlah_penduduk %>% "
+"0","  filter(tahun != ""2017"") %>% "
+"0","  mutate_if(is.character, as.factor)"

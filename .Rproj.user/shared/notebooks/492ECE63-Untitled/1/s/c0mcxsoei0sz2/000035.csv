@@ -1,0 +1,4 @@
+"0","jml_pend_clean %>% "
+"0","  filter(tahun == ""2016"") %>% "
+"0","  #select(tahun, proyeksi_jumlah_penduduk) %>% "
+"0","  summarise(proyeksi_jumlah_penduduk = sum(proyeksi_jumlah_penduduk))"

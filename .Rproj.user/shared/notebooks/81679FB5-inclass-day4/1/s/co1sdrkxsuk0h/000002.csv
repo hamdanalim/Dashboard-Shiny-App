@@ -1,0 +1,2 @@
+"0","# konfirmasi"
+"0","plot(table( flight$Month, flight$DepDel15))"

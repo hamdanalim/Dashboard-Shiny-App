@@ -1,0 +1,5 @@
+"0","# wrangling data"
+"0","honors <- honors %>% "
+"0","  mutate(female = as.factor(female),"
+"0","         hon = as.factor(hon)) %>% "
+"0","  select(-femalexmath)"

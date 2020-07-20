@@ -1,0 +1,1 @@
+"0","model_crime2 <- lm(inequality~gdp + mean_education, crime)"

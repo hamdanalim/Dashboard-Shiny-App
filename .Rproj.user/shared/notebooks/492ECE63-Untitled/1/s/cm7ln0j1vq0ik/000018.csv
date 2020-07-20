@@ -1,0 +1,2 @@
+"0","jml_pend_clean %>% "
+"0","  summarise(pertumbuhan = round((47379610 - 43227380)/7), )"

@@ -1,0 +1,5 @@
+"0","model_d <- lm(formula = time ~ dist, hills)"
+"0","model_dc <- lm(formula = time ~ dist + climb, hills)"
+"0",""
+"0","# cara 2"
+"0","# model_dc <- lm(formula = time ~ ., hills)"

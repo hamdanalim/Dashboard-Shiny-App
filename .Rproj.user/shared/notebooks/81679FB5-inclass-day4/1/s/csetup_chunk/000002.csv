@@ -1,0 +1,27 @@
+"0","# chunk options"
+"0","knitr::opts_chunk$set("
+"0","  message = FALSE,"
+"0","  warning = FALSE,"
+"0","  fig.align = ""center"","
+"0","  comment = ""#>"""
+"0",")"
+"0",""
+"0","# change scientific number"
+"0","options(scipen = 99)"
+"0","library(gmodels)"
+"0","library(gtools)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"

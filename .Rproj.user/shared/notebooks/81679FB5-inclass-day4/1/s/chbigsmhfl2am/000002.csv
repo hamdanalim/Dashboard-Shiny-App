@@ -1,0 +1,3 @@
+"0","# read data"
+"0","honors <- read.csv(""data_input/sample.csv"")"
+"0","head(honors)"

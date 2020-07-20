@@ -1,0 +1,2 @@
+"0","copiers_remove <- copiers %>% "
+"0","  filter(Sales !=4899.93)"

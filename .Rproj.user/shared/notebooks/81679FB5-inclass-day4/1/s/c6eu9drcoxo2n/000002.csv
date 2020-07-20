@@ -1,0 +1,6 @@
+"0","model_log <- glm(diagnosis~., train_new, family = ""binomial"")"
+"0","test$predict.Risk <- predict(model_log, newdata = test, type = ""response"")"
+"0","test$predict.Label <- ifelse(test$predic.Risk > 0.5, ""Maligant"", ""Benign"")"
+"2","Error in `$<-.data.frame`(`*tmp*`, predict.Label, value = logical(0)) : 
+  replacement has 0 rows, data has 171
+"

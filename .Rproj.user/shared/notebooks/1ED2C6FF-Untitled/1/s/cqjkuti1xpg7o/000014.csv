@@ -1,0 +1,2 @@
+"0","meat_consumption <- meat_consumption[, c(1, 2, 3, 6, 7)]"
+"0","head(meat_consumption)"

@@ -1,0 +1,2 @@
+"0","merge_penduduk <- merge(pend_clean,jml_pend_clean, by=c(""kode_kota_kabupaten"",""nama_kota_kabupaten"", ""tahun""))"
+"0","merge_penduduk"

@@ -1,0 +1,6 @@
+"0","RNGkind(sample.kind = ""Rounding"")"
+"0","# splitting"
+"0","set.seed(417)"
+"0","idx <- sample(nrow(loan), nrow(loan)*0.8)"
+"0","loan_train <- loan[idx,]"
+"0","loan_test <- loan[-idx,]"

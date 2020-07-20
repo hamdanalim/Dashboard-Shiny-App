@@ -1,0 +1,36 @@
+19:45:09	 From hamdanalimutaqin : bisa share code nya kah?
+19:46:03	 From tanesya : silahkan pak:
+19:46:03	 From tanesya : theme_algoritma <- readRDS("theme_algoritma.rds")
+
+## Your code here
+# data transformation
+workers_gap <- workers %>% 
+  filter(year == 2016) %>% 
+  group_by(major_category) %>% 
+  summarise(
+    Male = mean(percent_male),
+    Female = mean(percent_female)
+  ) %>% 
+  ungroup() %>% 
+  # "pendukung" ggplot, agar bar berurutan berdasarkan gap male dan female (Male - Female)
+  mutate(major_category = reorder(major_category, Male - Female)) %>% 
+  pivot_longer(cols = -major_category) %>% 
+  # "pendukung" ggplotly, agar saat di hover memunculkan informasi yang sesuai dengan text
+  mutate(text = paste(name,":", round(value,2) ,"%")) 
+
+# visualization
+ggplot(workers_gap, aes(value, major_category, text = text))+ # text baru terlihat setelah plot interaktif
+  geom_col(aes(fill = name))+
+  geom_vline(xintercept = 50, linetype = "dotted")+
+  labs(x = NULL, y= NULL, title = "US Labor Force Participation, 2016")+
+  theme(legend.position = "none") +
+  scale_x_continuous(labels = scales::unit_format(unit = "%"))+
+  theme_al
+19:51:02	 From Alfins : ready
+19:51:02	 From Verawaty : ready
+19:51:02	 From dina tambunan : ready
+19:51:43	 From Muhamad Risman : ready
+19:55:31	 From Arya : ready
+19:55:31	 From Denny : ready
+19:55:36	 From Bambang Taryono : ready
+19:55:43	 From Rahmat Hidayat : ready

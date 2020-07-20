@@ -1,0 +1,1 @@
+"0","model_remove <- lm(formula = Profit~ Sales, data = copiers_remove)"

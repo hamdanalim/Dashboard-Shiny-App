@@ -1,0 +1,5 @@
+"0","# ifelse(kondisi, benar, salah)"
+"0","loan_test$pred.Label <- ifelse(loan_test$pred.Risk > 0.5, ""1"", ""0"")"
+"0",""
+"0","# ubah kelas target (aktual dan prediksi) menjadi factor"
+"0","loan_test$pred.Label <- as.factor(loan_test$pred.Label)"

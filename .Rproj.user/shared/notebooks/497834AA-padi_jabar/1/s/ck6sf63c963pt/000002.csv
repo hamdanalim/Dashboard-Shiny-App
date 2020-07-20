@@ -1,0 +1,3 @@
+"0","padi <- read.csv(""assets/produksi-padi-jabar- 2017.csv"", sep = "";"", dec = "","")"
+"0",""
+"0","padi"

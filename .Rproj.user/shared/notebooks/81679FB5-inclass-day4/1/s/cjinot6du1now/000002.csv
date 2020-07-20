@@ -1,0 +1,2 @@
+"0","# Plot sigmoid curve"
+"0","curve(inv.logit(x), from = -10, to=10, xlab = ""Log of Odds"", ylab=""Probability"")"
